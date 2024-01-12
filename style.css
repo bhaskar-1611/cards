@@ -1,0 +1,62 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	background: #f6f5f7; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	margin: 20px 0 50px;
+    background-color:aliceblue;
+    font-size: larger;
+    font-weight:900;
+    scroll-behavior: smooth;
+    overflow:scroll;
+    width: 100%;
+}
+.container{
+    padding: 10px;
+}
+#setup, #playerNames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: black;
+    border-radius: 10px;
+    border-style:groove;
+}
+#setup input{
+    margin: 8px 0;
+    width: 6ch;
+    height: 24px;
+    text-align: center;
+}
+button{
+    margin: 8px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    background-color: coral;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px gray;
+}
+.positive-amount{
+    color:green
+}
+.negative-amount{
+    color:red
+}
+.container{
+    padding: 10%;
+    display: flex;
+}

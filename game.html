@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .positive-amount {
+      color: green;
+    }
+    .negative-amount {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="setup">
+    <table>
+      <tr>
+        <td>
+          <label for="numOfPlayers">Number of Players:</label>
+        </td>
+        <td>
+          <input type="number" id="numOfPlayers">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="minGameAmount">Minimum Game Amount:</label>
+        </td>
+        <td>
+          <input type="number" id="minGameAmount">
+        </td>
+      </tr>
+    </table>
+    <br>
+    <button onclick="setupPlayers()">Setup Players</button>
+  </div>
+  <div class="container">
+  <div id="playerNames" style="display:none;">
+    <!-- Player name inputs will be added here dynamically -->
+  </div>
+
+  <div id="game">
+    <!-- Game display will be shown here after setup -->
+  </div>
+  <div id="buttonContainer">
+    <!-- New buttons will be added here -->
+  </div>
+  </div>
+  
+  <span id="newGameCounter" style="position: absolute; top: 10px; left: 10px;"></span>
+
+  <script src="index.js"></script>
+</body>
+</html>
